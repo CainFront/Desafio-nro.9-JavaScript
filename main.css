@@ -1,0 +1,118 @@
+/* Reset General */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+}
+
+/* =============================0
+SECCION INICIAL
+============================= */
+
+.inicio {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/fondoInicio.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicioTitulo {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+.inicioTexto {
+  font-size: 2rem;
+  width: 50vw;
+  padding-bottom: 2rem;
+  font-variant: small-caps;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.inicioBtn {
+  transform: scale(0.5);
+}
+
+.inicioAviso {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin-top: 5rem;
+}
+
+/* =============================0
+SECCION JUEGO
+============================= */
+
+body {
+  background-image: url(./img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.juego {
+  border: 1px solid red;
+  display: grid;
+  grid-template-areas: "uno dos tres" "cuatro cinco seis" "siete ocho nueve";
+}
+
+.salirBtn {
+  transform: scale(0.4);
+  position: relative;
+  bottom: 8rem;
+  right: 6rem;
+}
+/* secciones del Grid area */
+
+#uno {
+  grid-area: uno;
+  height: 33vh;
+}
+
+#dos {
+  grid-area: dos;
+  height: 33vh;
+}
+#tres {
+  grid-area: tres;
+  height: 33vh;
+}
+
+#cuatro {
+  grid-area: cuatro;
+  height: 33vh;
+}
+#cinco {
+  grid-area: cinco;
+  height: 33vh;
+}
+#seis {
+  grid-area: seis;
+  height: 33vh;
+}
+
+#siete {
+  grid-area: siete;
+  height: 33vh;
+}
+
+#ocho {
+  grid-area: ocho;
+  height: 33vh;
+}
+
+#nueve {
+  grid-area: nueve;
+  height: 33vh;
+}
