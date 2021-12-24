@@ -68,10 +68,10 @@ body {
 }
 
 .salirBtn {
-  transform: scale(0.4);
-  position: relative;
-  bottom: 8rem;
-  right: 6rem;
+  transform: scale(0.2);
+  position: absolute;
+  top: -10rem;
+  left: -7rem;
 }
 /* secciones del Grid area */
 
