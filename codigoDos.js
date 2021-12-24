@@ -1,4 +1,4 @@
-// // array imagenes
+// Declaraciones
 
 let uno = document.querySelector("#uno");
 let dos = document.querySelector("#dos");
